@@ -1,0 +1,86 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px ;
+    align-items: center;
+}
+
+nav img {
+    width: 50px;
+}
+
+section {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section .logiiin {
+    border: 2px rgb(226, 226, 226) solid;
+    padding: 40px 30px;
+    height: 350px;
+    width: 400px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+section .logiiin form .a {
+    display: flex;
+    flex-direction: column;
+}
+
+section .logiiin form .a label {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+section .logiiin form .a label i {
+    margin-right: 5px;
+}
+
+
+section .logiiin form .a label a {
+    color: #059862;
+    text-decoration: none;
+}
+
+section .logiiin form .a input {
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+section .logiiin form .btn {
+    margin-top: 40px;
+    padding: 15px;
+    color: white;
+    background-color: #059862;
+    border: none;
+    border-radius: 34px;
+    width: 100%;
+}
+
+section .logiiin .pass {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+section .logiiin .pass a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
